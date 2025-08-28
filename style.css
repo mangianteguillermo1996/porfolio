@@ -58,6 +58,7 @@ header {
      font-size: 35px;
      z-index: 101;
      cursor: pointer;
+     display: none;
 }
 
 #menu-toggle {
@@ -232,11 +233,11 @@ section {
         display: block;
     }
 
-    #menu-toggle:checked + label.menu-icon-action + ul {
-        right: 0;
-}
-
     #menu-icon-action {
         display: block;
+    }
+
+    .nav-list.open{
+        right: 0;
     }
 }
